@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+/* Header */
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+#header a {
+    text-decoration: none;
+    color: black;
+}
+#header a:nth-child(1) {
+font-size: 20px;
+}
+#header a:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+#header a:nth-child(2):hover {
+    background-color: blue;
+}
+/* BuildPage */
+#section-buildpage {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../images/sea.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section-buildpage .bptext {
+    display: flex;
+    justify-content: center;
+}
+#section-buildpage .bptext h1 {
+    color: white;
+    font-size: 48px;
+    width: 60%;
+    text-align:  center;
+}
+#section-buildpage .inputbutton input {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#section-buildpage .inputbutton a {
+   background-color:  #007bff;
+   color: white;
+   padding: 10px 40px;
+   font-size: 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: 400;
+   margin-left: 10px;
+}
+#section-buildpage .inputbutton a:hover {
+    background-color: blue;
+}
+#section-buildpage .inputbutton {
+    margin: 50px;
+}
+/* ICONS */
+#section-icons {
+    padding: 112px;
+    background-color: #F8F9FA;
+}
+#section-icons .icons {
+    display: flex;
+}
+#section-icons .icons div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section-icons .icons div i {
+    font-size: 72px;
+    color:  #007bff;
+}
+#section-icons .icons div h3 {
+    font-size: 28px;
+    margin: 10px 0px;
+    color: #212529;
+}
+#section-icons .icons div p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+    width: 90%;
+    line-height: 1.5;
+    color:#212529;
+}
+#section-icons .icons div i:hover {
+    font-size: 82px;
+}
+/* PHOTOS */
+
+#section-photos .photos {
+    display:flex;
+    flex-wrap: wrap;
+}
+#section-photos .photos .photoscontent {
+    display: flex;
+}
+#section-photos .photos .photoscontent .sptext {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 112px;
+}
+#section-photos .photos .photoscontent .sptext h2 {
+    font-size: 32px;
+}
+#section-photos .photos .photoscontent .sptext p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    line-height: 1.5;
+}
+#section-photos .photos .photoscontent .image img {
+    height: 480px;
+    width: 674.50px;
+}
+/* ROUNDEDPHOTOS */
+#section-roundphotos{
+    padding: 112px;
+    background-color: #F8F9FA;
+}
+#section-roundphotos .roundphotos .photostext {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-roundphotos .roundphotos .photostext .photostextalign {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#section-roundphotos .roundphotos .maintext h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height:1.2;
+    color: #212529;
+    margin-bottom: 48px;
+}
+#section-roundphotos .roundphotos .photostext .photostextalign h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+#section-roundphotos .roundphotos .photostext .photostextalign .FredSara {
+    font-weight: 300;
+    line-height: 1.5;
+    width: 55%;
+    text-align:  center;
+}
+#section-roundphotos .roundphotos .photostext .photostextalign .Margaret {
+    font-weight: 300;
+    line-height: 1.5;
+    width: 100%;
+    text-align:  center;
+}
+#section-roundphotos .roundphotos .photostext .images img {
+    height: 192px;
+    width: 192px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    margin-bottom: 16px;
+}
+/* READY */
+#section-ready {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../images/sea.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+#section-ready .rdtext {
+    display: flex;
+    justify-content: center;
+}
+#section-ready .rdtext h3 {
+    color: white;
+    font-size: 32px;
+    text-align:  center;
+}
+#section-ready .rdinputbutton input {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#section-ready .rdinputbutton a {
+   background-color:  #007bff;
+   color: white;
+   padding: 10px 40px;
+   font-size: 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: 400;
+   margin-left: 10px;
+}
+#section-ready .rdinputbutton a:hover{
+background-color: blue;
+}
+#section-ready .rdinputbutton {
+    margin: 20px;
+}
+/* Footer */
+footer {
+    padding: 64px 0px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+.footerul {
+    display: flex;
+}
+.footerul li {
+    margin: 0px 10px;
+    list-style-type: none;
+}
+.footerul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+.footerul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.social {
+    display: flex;
+}
+.social div a i {
+    font-size: 32px;
+    color:#007bff;
+    margin: 0px 15px;
+}
+.social div a i:hover {
+color: blue;
+}
+.about div p {
+    color:#6c757d;
+    font-weight: 400;
+    font-size: 80%;
+    margin-top: 10px;
+}
